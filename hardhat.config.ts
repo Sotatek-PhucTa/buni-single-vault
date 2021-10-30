@@ -41,7 +41,7 @@ module.exports = {
       accounts: [privateKey],
     },
     tbsc: {
-        url: 'https://bsc-dataseed.binance.org',
+        url: 'https://data-seed-prebsc-1-s1.binance.org:8545/',
         accounts: [privateKey],
         timeout: 20000,
         chainId: 97,
@@ -58,7 +58,7 @@ module.exports = {
 //     },
   },
   etherscan: {
-    apiKey: etherscan,
+    apiKey: bscscan,
     bsc: bscscan,
   },
   solidity: {
